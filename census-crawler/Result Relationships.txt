@@ -1,0 +1,9 @@
+census_data_results.cfm calls:
+	- all_together_query.cfm(template) : SQL Query to bring forth ALL entities
+	- cfquery_census.cfm(template) : SQL Query to bring forth SPECIFIC entities
+	- census_data_site.cfm(template) : search box
+		- state_query.cfm
+		- type_query.cfm
+	- census_data_stats.cfm : Output entities
+		- Press previous button and go back to previous census_data_results.cfm
+		- Press next button and go to next census_data_results.cfm
