@@ -3,7 +3,7 @@ tagTallies = {};
 linesOfCode = 0;
 overallTally = 0;
 
-directoryList("/Users/willcc/Sites/", true, "array", "*.cf?", "directory, name").each(function(filePath){
+directoryList("[LOCAL DIRECTORY]", true, "array", "*.cf?", "directory, name").each(function(filePath){
   var code = fileRead(filePath);
   linesOfCode += code.ListLen(Chr(13) & Chr(10));
 
