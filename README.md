@@ -32,4 +32,4 @@ Vin Decoding:
   - Queries used to analyze data and data quality
   
 XML CFTags:
-  - Used to generate and parse XML
+  - List of ColdFusion tags and functions
